@@ -1,4 +1,18 @@
 html,
+.wrapper {
+    width: 1775 px;
+    height: 100%;
+    position: absolute;
+    background-image: url("img/Background.png");
+}
+.text-navigation {
+    color: #FFFFFF;
+    font-family: 'Geologica', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-right: 41px;
+ 
+}
 
 .header-text {
     color: #FFFFFF;
@@ -6,5 +20,19 @@ html,
     font-weight: 700;
     font-size: 74px;
     line-height: 84px;
+    text-align: center;
+}
+.header-text2 {
+    font-family: 'Geologica', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+}
+.header-button {
+    font-family: 'Geologica', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
     text-align: center;
 }
