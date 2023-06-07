@@ -5,51 +5,44 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Figmaland <HTML></HTML></title>
-        <link rel="shortcut icon" href="img/Figma Logo.png">
+        <link rel="shortcut icon" href="img/Figma Logo.png" type="image/x-icon">
         <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
         <link href="css/styles.css" rel="stylesheet"/>
     </head>
     <body>
-        <header>
-            <div class="main-page">
-                <section >  
-                        <div class="header-box">
-                            <nav >
+        <header class="header">
+            <div class="header__main-page"> 
+                            <nav class="header__navigation" >
                                 <ul>
                                     <li >
-                                        <a class="navbar" href="#" target="_blank">Home</a>
-                                        <a class="navbar" href="#" target="_blank">Product</a>
-                                        <a class="navbar" href="#" target="_blank">Pricing</a>
-                                        <a class="navbar" href="#" target="_blank">About</a>
-                                        <a class="navbar" href="#" target="_blank">Contact</a>
+                                        <a href="#" class="navigation__item">Home</a>
+                                        <a href="#" class="navigation__item">Product</a>
+                                        <a href="#" class="navigation__item">Pricing</a>
+                                        <a href="#" class="navigation__item">About</a>
+                                        <a href="#" class="navigation__item">Contact</a>
                                     </li>
                                 </ul>
                             </nav>
-                            <img src="img/figma-logo.png" alt="logo-FigmaLand" > 
-                            <figure class="icon-box">
-                                <a href="#"><img class="item" src="img/header-ant-design_twitter-outlined.png" alt="icon-twitter"></a>
-                                <a href="#"><img class="item" src="img/header-ant-design_facebook-filled.png" alt="icon-facebook"></a>
-                                <a href="#"><img class="item" src="img/header-ant-design_linkedin-filled.png" alt="icon-linkedin"></a>
+                            <div class="header_logo-container">
+                                <img class="header__logo" src="img/figma-logo.png" alt="logo FigmaLand"> 
+                            </div>
+                            <figure class="header__social-icons-container">
+                                <a href="#"><img class="icons-container-item" src="img/header-ant-design_twitter-outlined.png" alt="icon-twitter"></a>
+                                <a href="#"><img class="icons-container-item" src="img/header-ant-design_facebook-filled.png" alt="icon-facebook"></a>
+                                <a href="#"><img class="icons-container-item" src="img/header-ant-design_linkedin-filled.png" alt="icon-linkedin"></a>
                             </figure>
                         </div>
-                            
                             <div class="button-box">
                                 <h1>The best products<br>start with Figma</h1>
-                                <h4 class="header-text">Most calendars are designed for teams. <br> Slate is designed for freelancers</h4>
-                                <button class="header-button">Try For Free</button>
+                                <p class="header-text">Most calendars are designed for teams. <br> Slate is designed for freelancers</p>
+                                <a href="#" class="header-button">Try For Free</a>
                             </div>
-                              
-                </section> 
             </div>
-           
         </header>
-
         <main>
             <section> 
-
                 <h2>Features</h2>
-                <h4>Most calendars are designed for teams.<br>Slate is designed for freelancers</h4>
-
+                <p>Most calendars are designed for teams.<br>Slate is designed for freelancers</p>
                 <ul>
                     <li>
                         <img src="img/Vector-1.png" alt="icon-figures">
@@ -74,7 +67,7 @@
             </section>
             <section>
                 <h2>Fastest way to organize</h2>
-                <h4>Most calendars are designed for teams.<br>Slate is designed for freelancers</h4>
+                <p>Most calendars are designed for teams.<br>Slate is designed for freelancers</p>
                 <button>Try For Free</button>
                 <figure>
                 <img src="img/Section 2-Macbook Pro.png" alt="icon-Macbook Pro"> 
